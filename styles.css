@@ -655,7 +655,7 @@ nav .navigation i{
 
 
 /* CSS media Queries */
-@media (max-width:799px) {
+/*@media (max-width:799px) {
     nav{
         padding: 15px 20px;
     }
@@ -716,4 +716,123 @@ nav .navigation i{
     footer li a{
         text-decoration: none;
     }
+}*/
+
+
+
+/* Media query for tablets (iPads) and small desktops */
+@media (max-width: 1024px) {
+    #home p {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    nav .navigation ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #features .fea-box {
+        padding: 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .form, .contact .map {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    nav .navigation ul {
+        width: 100%;
+        right: 0;
+    }
+
+    #home {
+        padding-top: 20px;
+    }
+
+    #home h2 {
+        font-size: 32px;
+    }
+
+    #home p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #features, #course, #registration, #about-section-section, #contacts {
+        padding: 10vw 4vw;
+    }
+
+    #features .fea-box, #course .course-box, #registration .reminder {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .subscribe {
+        margin-top: 10px;
+    }
+}
+
+/* Media query for smaller mobile devices */
+@media (max-width: 475px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #home h2 {
+        font-size: 28px;
+    }
+
+    #home p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    nav .navigation ul li {
+        padding: 15px 0 15px 20px;
+    }
+
+    .contact .form h2, .contact .map h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact .form .submit input, .contact .form .submit textarea {
+        padding: 10px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer li {
+        font-size: 18px;
+    }
+
+    footer input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
