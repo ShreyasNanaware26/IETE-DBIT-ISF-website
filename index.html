@@ -16,8 +16,7 @@
 </head>
 <body>
 
-    <nav>
-        <!--<img src="image/LOGO.png" alt="">-->
+   <!-- <nav>
         <p id="pa"><strong><a href="index.html">IETE-DBIT-ISF</a></strong></p>
         <div class="navigation">
             <ul id="navbar">
@@ -32,7 +31,25 @@
             <i class="fa-solid fa-bars" id="bar"></i>
             
         </div>
-    </nav>
+    </nav> -->
+
+    <section id="header">
+        <p id="pa"><strong><a href="index.html">IETE-DBIT-ISF</a></strong></p>
+        <div>
+            <ul id="navbar">
+                <i id="menu-close" class="fa-solid fa-arrow-right"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#about-section-section">About</a></li>
+                <li><a href="#course">Events & Gallery</a></li>
+                <li><a href="#core">Team</a></li>
+                <li><a href="#contacts">Contact </a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-arrow-right"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </section>
 
     <section id="home">
        
@@ -200,7 +217,7 @@
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/1.9 (2).jpeg" alt=""></a>
+                <a href="#"><img src="image/img/1.9 (2).JPEG" alt=""></a>
             </div>
             
         </div>
@@ -211,22 +228,22 @@
         <h1 id="course-h1-3">IP Networking Session</h1>
         <div class="course-box">
             <div class="courses2">
-                <a href="#"><img src="image/img/i1.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i1.JPEG" alt=""></a>
               
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i2.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i2.JPEG" alt=""></a>
                 
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i3.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i3.JPEG" alt=""></a>
                 
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i5.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i5.JPEG" alt=""></a>
                 
             </div>
 
@@ -236,16 +253,16 @@
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i7.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i7.JPEG" alt=""></a>
              
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i4.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i4.JPEG" alt=""></a>
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/i8.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/i8.JPEG" alt=""></a>
             </div>
 
             <div class="courses2">
@@ -258,22 +275,22 @@
         <h1 id="course-h1-4">HAM Radio</h1>
         <div class="course-box">
             <div class="courses2">
-                <a href="#"><img src="image/img/21.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/21.JPEG" alt=""></a>
               
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/22.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/22.JPEG" alt=""></a>
                 
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/23.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/23.JPEG" alt=""></a>
                 
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/25.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/25.JPEG" alt=""></a>
                 
             </div>
 
@@ -283,16 +300,16 @@
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/27.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/27.JPEG" alt=""></a>
              
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/24.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/24.JPEG" alt=""></a>
             </div>
 
             <div class="courses2">
-                <a href="#"><img src="image/img/28.jpeg" alt=""></a>
+                <a href="#"><img src="image/img/28.JPEG" alt=""></a>
             </div>
 
             <div class="courses2">
@@ -513,10 +530,10 @@
         <div class="form">
             <h2>Contact Us</h2>
             <div class="submit">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea name="" id="" placeholder="Message"></textarea>
-                <a href="#">Send Message</a>
+                <input type="text" placeholder="Name" class="inp">
+                <input type="email" placeholder="Email" class="inp">
+                <textarea name="" id="" placeholder="Message" class="inp"></textarea>
+                <a href="#" class="inp">Send Message</a>
             </div>
         </div>
         <div class="map">
@@ -573,14 +590,8 @@
 
     </footer>
 
-    <script>
-        $('#bar').click(function(){
-            $('nav .navigation ul').addClass('active')
-        });
 
-        $('#menu-close').click(function(){
-            $('nav .navigation ul').removeClass('active')
-        });
-    </script>
+    <script src="script.js"></script>
+
 </body>
 </html>
