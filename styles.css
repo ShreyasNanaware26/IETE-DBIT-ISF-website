@@ -177,7 +177,7 @@ h6{
 
 #features .fea-box{
     background: #e1e1e6;
-    text-align: start;
+    text-align: center;
     padding: 30px 30px;
 }
 #features .fea-box i{
@@ -193,6 +193,7 @@ h6{
 #features .fea-box p{
     font-size: 20px;
     font-weight: 400;
+    text-align: justify;
     color: rgb(62, 62, 63);
 }
 
@@ -890,6 +891,13 @@ nav .navigation i{
         text-align: center;
     }
 
+    #home h2 {
+        color: rgb(255, 255, 255);
+        font-size: 33px;
+        letter-spacing: 1px;
+    }
+
+
     #home .btn{
         display: flex;
         flex-direction: column;
@@ -910,8 +918,8 @@ nav .navigation i{
     }
 
 
-    #course h1 i,#course h1{
-        font-size: 0.1rem;
+    #star{
+        font-size: 1px;
     }
 
     .submit input{
