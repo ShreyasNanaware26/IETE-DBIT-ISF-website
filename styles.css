@@ -904,6 +904,11 @@ nav .navigation i{
     
     }
 
+    #course .courses .details p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
 
     #course h1 i,#course h1{
         font-size: 0.1rem;
